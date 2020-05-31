@@ -1,4 +1,4 @@
-create table critereimpact ( idimpact integer primary key , impact varchar(50) , confidentialite varchar(50) , integrite varchar(50) , disponibilite varchar(50) );
+create table critereimpact ( idimpact integer primary key , impact varchar(150) , confidentialite varchar(150) , integrite varchar(150) , disponibilite varchar(150) );
 insert into critereimpact ( idimpact , impact , confidentialite , integrite , disponibilite )   values (  '1' , 'Faible ou inexistant' , 'Information pouvant etre publiques' , 'Pas de validation necessaire Peut ne pas etre integre ' , 'Arret superieur a 3 jours' );
 insert into critereimpact ( idimpact , impact , confidentialite , integrite , disponibilite )   values (  '2' , 'Significatif' , 'Acces autorise a l ensemble du journal SSID' , 'Simple validation possible  Peut etre partiellement integre ' , 'Arret entre 1 jour et 3 jours' );
 insert into critereimpact ( idimpact , impact , confidentialite , integrite , disponibilite )   values (  '3' , 'Fort' , 'Acces autorise a l ensemble de l equipe' , 'Validation croisee  Doit etre integre ' , 'Arret inferieur a 1 jours' );
