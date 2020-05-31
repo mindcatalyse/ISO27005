@@ -1,4 +1,4 @@
-create table critereevaluationrisque ( idimpact interger primary key , v1 varchar(50) , v2 varchar(50) , v3 varchar(50) , v4 varchar(50) );
+create table critereevaluationrisque ( idimpact integer primary key , v1 varchar(50) , v2 varchar(50) , v3 varchar(50) , v4 varchar(50) );
 insert into critereevaluationrisque ( idimpact , v1 , v2 , v3 , v4 )   values (  '1' , '1' , '2' , '3' , '4' );
 insert into critereevaluationrisque ( idimpact , v1 , v2 , v3 , v4 )   values (  '2' , '2' , '4' , '6' , '8' );
 insert into critereevaluationrisque ( idimpact , v1 , v2 , v3 , v4 )   values (  '3' , '3' , '6' , '9' , '12' );
