@@ -1,0 +1,13 @@
+create table critereevaluationrisque ( idimpact interger primary key , v1 varchar(50) , v2 varchar(50) , v3 varchar(50) , v4 varchar(50) );
+insert into critereevaluationrisque ( idimpact , v1 , v2 , v3 , v4 )   values (  '1' , '1' , '2' , '3' , '4' );
+insert into critereevaluationrisque ( idimpact , v1 , v2 , v3 , v4 )   values (  '2' , '2' , '4' , '6' , '8' );
+insert into critereevaluationrisque ( idimpact , v1 , v2 , v3 , v4 )   values (  '3' , '3' , '6' , '9' , '12' );
+insert into critereevaluationrisque ( idimpact , v1 , v2 , v3 , v4 )   values (  '4' , '4' , '8' , '12' , '16' );
+insert into critereevaluationrisque ( idimpact , v1 , v2 , v3 , v4 )   values (  '5' , '5' , '10' , '15' , '20' );
+insert into critereevaluationrisque ( idimpact , v1 , v2 , v3 , v4 )   values (  '6' , '6' , '12' , '18' , '24' );
+insert into critereevaluationrisque ( idimpact , v1 , v2 , v3 , v4 )   values (  '7' , '7' , '14' , '21' , '28' );
+insert into critereevaluationrisque ( idimpact , v1 , v2 , v3 , v4 )   values (  '8' , '8' , '16' , '24' , '32' );
+insert into critereevaluationrisque ( idimpact , v1 , v2 , v3 , v4 )   values (  '9' , '9' , '18' , '27' , '36' );
+insert into critereevaluationrisque ( idimpact , v1 , v2 , v3 , v4 )   values (  '10' , '10' , '20' , '30' , '40' );
+insert into critereevaluationrisque ( idimpact , v1 , v2 , v3 , v4 )   values (  '11' , '11' , '22' , '33' , '44' );
+insert into critereevaluationrisque ( idimpact , v1 , v2 , v3 , v4 )   values (  '12' , '12' , '24' , '36' , '48' );
